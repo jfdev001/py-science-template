@@ -68,7 +68,7 @@ You can rinse and repeat this process since this is the minimum commands needed 
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── Makefile           <- Makefile with commands like `make create_environment`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├
