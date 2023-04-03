@@ -11,7 +11,7 @@
 In the appropriate conda environment, install packages using `conda install <name of package>`. Whatever package you installed, you should add its name to the `environment.yml` file. Other users of the repository can then easily update their local environments in order to have the same packages as you. To update your local environment with a changed environment file, call the below command:
 
 ```shell
-make update_environment`
+make update_environment
 ```
 
 ## Git
