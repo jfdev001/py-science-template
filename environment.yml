@@ -1,0 +1,9 @@
+name: dmtech1
+dependencies:
+  - python=3.9
+  - scikit-learn-intelex
+  - statsmodels
+  - pandas
+  - matplotlib
+  - ipykernel
+  - pip 
