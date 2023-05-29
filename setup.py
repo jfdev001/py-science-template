@@ -14,12 +14,12 @@ def readme():
 # TODO: Might need to alter package finding based on potential addition of
 # unit testing???
 setup(
-    name='dmtech1',
+    name=,
     packages=find_packages(),
     version='0.1.0',
-    description='Assignment 1: VU Data Mining Techniques 2023',
+    description='Something here',
     long_description=readme(),
-    author='Jared Frazier, Isabel Klennert, Fatima Gonzalez-Novo Lopez',
+    author='Jared Frazier',
     author_email="cscidev001@gmail.com",
     license='MIT',
 )

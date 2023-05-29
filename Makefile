@@ -9,7 +9,7 @@
 #################################################################################
 
 PYTHON_INTERPRETER = python
-ENV_NAME = dmtech1
+ENV_NAME = 
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -32,10 +32,6 @@ clean:
 	find . -type d -name "__pycache__" -delete
 
 ## Set up development environment
-## NOTE: If this errors out, then call 
-## conda activate dmtech1
-## pip install -e .
-## directly
 create_environment:
 ifeq (True,$(HAS_CONDA))
 	@echo ">>> Detected conda, creating conda environment."
